@@ -261,7 +261,7 @@ input, select, textarea {
 
 	/* Set your background with this */
 
-		background: #ffffff url("images/angelMain.jpg") center;
+		background: #ffffff url("images/angelMain.jpg") no-repeat center center fixed;
 
 		height: 145%;
 		width: 100%;
@@ -336,8 +336,10 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 /* Overlay */
@@ -840,8 +842,10 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		} }
 
 /* Normal */
@@ -922,8 +926,10 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		} }
 
 /* Mobile */
@@ -1008,8 +1014,10 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		}
 
 	/* Header */
@@ -1106,8 +1114,10 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		}
 
 	/* Header */
